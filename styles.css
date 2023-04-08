@@ -1,0 +1,81 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167FB7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+} 
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.principal {
+    background-image: url("img/imagem-principal\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: 175%;
+    align-items: center;
+    text-align: center;
+}
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 8px;
+    padding: 10px;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+.container__titulo {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+.container__caixa {
+    margin: 0em 6em;
+}
+.secundario__imagem {
+    width: 60%;
+}
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0.2em;
+    font-family: var(--fonte-principal);
+    text-align: center;
+    padding: 0.5em;
+}
+.descricao__paragrafo {
+    color: var(--cinza-secundario);
+    font-family: var(--fonte-principal);
+    text-align: center;
+}
+.container__descricao {
+    padding: 2.5em;
+}
