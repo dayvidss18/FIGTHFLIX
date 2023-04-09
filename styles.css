@@ -79,3 +79,10 @@ body {
 .container__descricao {
     padding: 2.5em;
 }
+.redes__lista {
+    display: flex;
+    justify-content: center;
+}
+.redes {
+    text-align: center;
+}
