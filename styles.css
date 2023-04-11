@@ -4,7 +4,7 @@
     --botao-vermelho: #c02307;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
-    --botao-efeito: #c02307;
+    --botao-efeito: #850000;
 } 
 
 body {
@@ -31,7 +31,7 @@ body {
     display: grid;
     grid-template-columns: 50% 50%;
 }
-.container__botao {
+.botao__principal {
     background-color: var(--botao-vermelho);
     border-radius: 5px;
     padding: 1em;
@@ -123,8 +123,9 @@ body {
 }
 
 .lista__link a:hover {
-    color: var(--botao-efeito)
+    color: var(--botao-vermelho)
 }
-.container__botao a:hover{
-    background-color: #00030C;
+.botao__principal:hover{
+    background-color: var(--botao-efeito);
+    transition: 1s;
 }
